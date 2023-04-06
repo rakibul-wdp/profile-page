@@ -1,6 +1,6 @@
 # CipherSchools Profile Page [Live Site](https://cipherschool-profile-page-rakibul-wdp.netlify.app)
 
-Frontend is made with React, vite TypeScript and sass and for backend NodeJs, Express is used with TypeScript and serverless framework. To make the API cost-effective, the application uses AWS Lambda functions to host the backend.
+Frontend is made with React, vite TypeScript and sass and for backend NodeJs, Express is used with TypeScript and serverless framework.
 
 ### Production URL:
 
