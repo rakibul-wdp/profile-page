@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { FaInstagram } from "react-icons/fa";
 
 const TaskCard = ({ title, points }) => {
