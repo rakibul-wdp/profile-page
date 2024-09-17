@@ -1,8 +1,7 @@
+import FooterNav from "@/components/FooterNav";
+import TabsContents from "@/components/TabsContents";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-import BottomNav from "@/components/BottomNav";
-import TabsContents from "@/components/TabsContents";
 import { Gift, Users, Wallet } from "lucide-react";
 
 const EarningsDashboard = () => {
@@ -89,7 +88,7 @@ const EarningsDashboard = () => {
           <TabsContents value={"reward"} data={selfData} title={"Reward"} />
         </Tabs>
       </div>
-      <BottomNav />
+      <FooterNav />
     </div>
   );
 };

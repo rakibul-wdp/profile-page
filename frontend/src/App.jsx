@@ -1,10 +1,18 @@
+import { Route, Router, Routes } from "react-router-dom";
 import "./App.css";
+import EarningsDashboard from "./pages/Earning";
+import TaskDetails from "./pages/Task";
 
 function App() {
   return (
-    <>
-      <h1 className="text-red-500">hello world</h1>
-    </>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<TaskDetails />} />
+          <Route path="/earnings" element={<EarningsDashboard />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
