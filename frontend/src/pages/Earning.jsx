@@ -1,8 +1,8 @@
-import FooterNav from "@/components/FooterNav";
-import TabsContents from "@/components/TabsContents";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Gift, Users, Wallet } from "lucide-react";
+import FooterNav from "../components/FooterNav";
+import TabsContents from "../components/TabsContents";
 
 const EarningsDashboard = () => {
   const earningsData = {
