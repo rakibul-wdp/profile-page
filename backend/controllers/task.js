@@ -1,4 +1,4 @@
-import TaskModel from "../models/task";
+import TaskModel from "../models/task.js";
 
 export const createTask = async (req, res) => {
   const { imageURL, title, points } = req.body;
