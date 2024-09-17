@@ -1,8 +1,0 @@
-.env
-
-.serverless/
-.build/
-
-node_modules/
-
-.vscode/
